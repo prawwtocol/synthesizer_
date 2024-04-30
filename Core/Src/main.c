@@ -114,6 +114,7 @@ int main(void)
   {
     switch (command)
     {
+      
     case 1: // freq
       Tx_buf[Tx_buf_size] = "Enter frequency (format xxx.x)";
       HAL_UART_Transmit(&huart2, Tx_buf, Tx_buf_size, HAL_MAX_DELAY);
